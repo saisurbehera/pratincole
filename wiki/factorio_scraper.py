@@ -138,7 +138,7 @@ if __name__ == "__main__":
     process = CrawlerProcess({
         'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
         'FEED_FORMAT': 'csv',
-        'FEED_URI': 'factorio_forum_pages.csv',
+        'FEED_URI': 'factorio_wiki_pages.csv',
         'ROBOTSTXT_OBEY': False,  # WARNING: Disabling respect for robots.txt
         'DOWNLOAD_DELAY': 0.1,    # Very aggressive - not recommended for production use
         'CONCURRENT_REQUESTS': 32, # Very high concurrency
@@ -157,9 +157,9 @@ if __name__ == "__main__":
         'MEDIA_ALLOW_REDIRECTS': True
     })
     
-    print("Starting Factorio Forums scraper...")
-    print("Pages will be saved to the 'forum_pages' directory")
-    print("URLs will be saved to 'factorio_forum_pages.csv'")
+    print("Starting Factorio Wiki scraper...")
+    print("Pages will be saved to the 'scraped_html_files' directory")
+    print("URLs will be saved to 'factorio_wiki_pages.csv'")
     
     process.crawl(FactorioSpider)
     process.start()
