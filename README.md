@@ -1,4 +1,26 @@
-# pratincole
+# Pratincole: Factorio Tools & Knowledge Base
+
+A comprehensive toolkit for Factorio enthusiasts, providing production calculators and extensive knowledge extraction from the Factorio community.
+
+## What This Repository Does
+
+This repository consists of two main components:
+
+### 1. Factorio Calculator
+- **Production Calculator**: Calculate optimal resource requirements for Factorio factories
+- **Recipe Analysis**: Find the most efficient production ratios
+- **Data Support**: Includes data for vanilla Factorio and mods like Space Age
+
+### 2. Wiki & Knowledge Extraction
+- **Forum Scraper**: Extract knowledge from Factorio forums
+- **Wiki Parser**: Process and structure Factorio wiki data
+- **Dataset Creation**: Generate structured datasets from community knowledge
+
+## Getting Started
+
+Each component has its own setup instructions. See the respective directories for details:
+- [Calculator](/calculator/FACTORIO-TOOLS.md)
+- [Wiki & Knowledge Extraction](/wiki/README.md)
 
 ### Why the name?
 
